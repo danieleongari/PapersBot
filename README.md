@@ -6,6 +6,8 @@ I ([@fxcoudert](https://twitter.com/fxcoudert)) wrote PapersBot to operate my [@
 
 PapersBot was inspired by (and borrows some code from) [feedr](https://github.com/housed/feedr).
 
+**Simple modification of the original program to parse only papers with the keywords `COF`, `COFs`, `covalent organic framework` and `covalent–organic framework`, and operate the twitter account [@COF_papers](https://twitter.com/COF_papers).**
+
 ---
 
 ## Requirements
