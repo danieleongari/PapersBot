@@ -328,24 +328,28 @@ class PapersBot:
 
 def main():
     # Make sure all options are correctly typed
-    options_allowed = ["--do-not-tweet", "--top-tweets"]
+    options_allowed = ["--do-not-tweet", "--top-tweets", "--check-hourly"]
     for arg in sys.argv[1:]:
         if arg not in options_allowed:
             print(f"Unknown option: {arg}")
             sys.exit(1)
 
-    # Initialize our bot
-    doTweet = "--do-not-tweet" not in sys.argv
-    bot = PapersBot(doTweet)
-
     # We can print top tweets
     if "--top-tweets" in sys.argv:
+        bot = PapersBot(doTweet)
         bot.printTopTweets()
         sys.exit(0)
 
-    bot.run()
-    bot.printStats()
-
+    # Initialize our bot
+    doTweet = "--do-not-tweet" not in sys.argv
+    while True:
+        bot = PapersBot(doTweet)
+        bot.run()
+        bot.printStats()
+        if "--check-hourly" not in sys.argv:
+            break
+        else:
+            time.sleep(60*60)
 
 if __name__ == '__main__':
     main()
