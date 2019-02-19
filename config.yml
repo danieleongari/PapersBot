@@ -5,11 +5,13 @@ throttle: 10 # modified to 10
 
 # Time (in seconds) to wait between two tweets
 # Default value: 5
-wait_time: 60
+wait_time: 5
 
 # URLs matching this regular expression will not be tweeted
 # Used e.g. for Wiley journals that republish old content with new URLs
-blacklist: "pericles.pericles-prod.literatumonline.com"
+blacklist:
+ - pericles.pericles-prod.literatumonline.com #same has already been published as https://onlinelibrary.wiley.com/
+ - https://www.onlinelibrary.wiley.com/       #same has already been published as https://onlinelibrary.wiley.com/
 
 # Whether to include journal Twitter handles. Not recommended: can lead
 # to the bot being banned for "large numbers of unsolicited mentions".

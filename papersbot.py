@@ -213,8 +213,7 @@ class PapersBot:
             config = {}
         self.throttle = config.get("throttle", 0)
         self.wait_time = config.get("wait_time", 5)
-        self.blacklist = config.get("blacklist", "").strip()
-        self.blacklist = re.compile(self.blacklist) if self.blacklist else None
+        self.blacklist = config.get("blacklist", []) #list of blacklisted strings
         self.handles = config.get("handles", True)
 
         # Connect to Twitter, unless requested not to
@@ -262,10 +261,12 @@ class PapersBot:
         tweet_body = title[:length] + " " + url
 
         # Some URLs may match our blacklist
-        if self.blacklist and self.blacklist.search(url):
-            print(f"BLACKLISTED: {tweet_body}\n")
-            self.addToPosted(entry.id)
-            return
+        for blackstring in self.blacklist:
+            reblackstring = re.compile(blackstring)
+            if reblackstring.search(url):
+                print(f"BLACKLISTED: {tweet_body}\n")
+                self.addToPosted(entry.id)
+                return
 
         media = None
         image = findImage(entry)
