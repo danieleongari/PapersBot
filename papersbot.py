@@ -47,26 +47,6 @@ def entryMatches(entry):
         return False
 
 
-acsTwitter = {
-    "acsaem": "acs_aem", "acsami": "acs_ami", "acsanm": "acs_anm", "acscatal": "ACSCatalysis",
-    "acscentsci": "ACSCentSci", "acsenergylett": "ACSEnergyLett", "acsnano": "acsnano", "acssuschemeng": "ACSSustainable",
-    "acs.chemrev": "ACSChemRev", "acs.chemmater": "ChemMater", "acs.cgd": "CGD_ACS", "acs.est": "EnvSciTech",
-    "acs.inorgchem": "InorgChem", "jacs": "J_A_C_S", "acs.jcim": "JCIM_ACS", "acs.jpcb": "JPhysChem", "acs.jpcc": "JPhysChem",
-    "acs.jpclett": "JPhysChem", "acs.langmuir": "ACS_Langmuir", "acs.nanolett": "NanoLetters"}
-rscTwitter = {
-    "CY": "CatalysisSciTec", "CC": "ChemCommun", "SC": "ChemicalScience", "CS": "ChemSocRev", "CE": "CrystEngComm",
-    "DT": "DaltonTrans", "EE": "EES_journal", "EN": "EnvSciRSC", "FD": "Faraday_D", "GC": "green_rsc", "TA": "JMaterChem",
-    "TB": "JMaterChem", "TC": "JMaterChem", "NR": "Nanoscale_RSC", "CP": "PCCP", "SM": "SoftMatter"}
-natureTwitter = {
-    "s41563": "NatureMaterials", "s41557": "NatureChemistry", "s42004": "CommsChem", "s41467": "NatureComms",
-    "s41929": "NatureCatalysis", "s41560": "NatureEnergyJnl", "s41565": "NatureNano", "s41567": "NaturePhysics",
-    "s42005": "CommsPhys", "s41570": "NatRevChem", "s41578": "NatRevMater"}
-wileyTwitter = {
-    "adma": "AdvMater", "adfm": "AdvFunctMater", "anie": "angew_chem", "chem": "ChemEurJ", "asia": "ChemAsianJ",
-    "cplu": "ChemPlusChem", "cphc": "ChemPhysChem", "slct": "ChemistrySelect"}
-apsTwitter = {"PhysRevLett": "PhysRevLett", "PhysRevX": "PhysRevX", "PhysRevB": "PhysRevB", "PhysRevMaterials": "PhysRevMater"}
-
-
 # From a given URL, figure out the corresponding journal Twitter handle
 # (This will work well for ACS, RSC, and Wiley Chemistry)
 def journalHandle(url):
@@ -216,7 +196,6 @@ class PapersBot:
         self.throttle = config.get("throttle", 0)
         self.wait_time = config.get("wait_time", 5)
         self.blacklist = config.get("blacklist", []) #list of blacklisted strings
-        self.handles = config.get("handles", True)
 
         # Connect to Twitter, unless requested not to
         if doTweet:
@@ -254,11 +233,6 @@ class PapersBot:
         title = cleanText(htmlToText(entry.title))
         url = entry.id
         length = self.maxlength
-
-        handle = journalHandle(url)
-        if self.handles and handle:
-            length -= len(handle) + 2
-            url = f"@{handle} {url}"
 
         tweet_body = title[:length] + " " + url
 

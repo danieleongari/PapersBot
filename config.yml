@@ -12,7 +12,3 @@ wait_time: 5
 blacklist:
  - pericles.pericles-prod.literatumonline.com #same has already been published as https://onlinelibrary.wiley.com/
  - https://www.onlinelibrary.wiley.com/       #same has already been published as https://onlinelibrary.wiley.com/
-
-# Whether to include journal Twitter handles. Not recommended: can lead
-# to the bot being banned for "large numbers of unsolicited mentions".
-handles: false
