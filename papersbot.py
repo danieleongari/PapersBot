@@ -164,7 +164,7 @@ def cleanText(s):
     # Some feeds have LF characeters
     s = s.replace("\x0A", "")
     # Remove (arXiv:1903.00279v1 [cond-mat.mtrl-sci])
-￼    s = re.sub(r"\(arXiv:.+\)", "", s)
+    s = re.sub(r"\(arXiv:.+\)", "", s)
     # Remove multiple spaces, leading and trailing space
     return re.sub("\\s\\s+", " ", s).strip()
 
@@ -233,6 +233,14 @@ class PapersBot:
         title = cleanText(htmlToText(entry.title))
         url = entry.id
         length = self.maxlength
+
+        # Print problematic URLs
+        if not (url[:8] == "https://" or url[:7] == "http://"):
+            print(f"WARNING! PROBLEMATIC URL: {url}\n")
+
+        # Try to solve the problematic URL, but post anyway if not solved
+        if url[:22] == "/doi/abs/10.1002/anie.":
+            url = "https://onlinelibrary.wiley.com" + url
 
         tweet_body = title[:length] + " " + url
 
