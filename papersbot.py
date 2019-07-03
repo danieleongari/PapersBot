@@ -237,6 +237,9 @@ class PapersBot:
         # Try to solve the problematic URL, but post anyway if not solved
         if url[:17] == "/doi/abs/10.1002/":
             url = "https://onlinelibrary.wiley.com" + url
+            need_correction = True
+        else:
+            need_correction = False
 
         tweet_body = title[:length] + " " + url
 
@@ -245,7 +248,7 @@ class PapersBot:
             reblackstring = re.compile(blackstring)
             if reblackstring.search(url):
                 print(f"BLACKLISTED: {tweet_body}\n")
-                self.addToPosted(entry.id)
+                self.addToPosted(entry.id + " (blacklisted)")
                 return
 
         media = None
@@ -261,7 +264,12 @@ class PapersBot:
         if self.api:
             self.api.update_status(tweet_body, media_ids=media)
 
-        self.addToPosted(entry.id)
+        if need_correction:
+            posted_url = "{} (corrected to {})".format(entry.id, url)
+        else:
+            posted_url = entry.id
+
+        self.addToPosted(posted_url)
         self.n_tweeted += 1
 
         if self.api:
