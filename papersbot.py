@@ -234,12 +234,8 @@ class PapersBot:
         url = entry.id
         length = self.maxlength
 
-        # Print problematic URLs
-        if not (url[:8] == "https://" or url[:7] == "http://"):
-            print(f"WARNING! PROBLEMATIC URL: {url}\n")
-
         # Try to solve the problematic URL, but post anyway if not solved
-        if url[:22] == "/doi/abs/10.1002/anie.":
+        if url[:17] == "/doi/abs/10.1002/":
             url = "https://onlinelibrary.wiley.com" + url
 
         tweet_body = title[:length] + " " + url
