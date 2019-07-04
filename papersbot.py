@@ -173,7 +173,7 @@ def cleanText(s):
 def readPosted():
     try:
         with open("posted.dat", "r") as f:
-            return f.read().splitlines()
+            return [ line.split()[0] for line in f.read().splitlines()]
     except:
         return []
 
