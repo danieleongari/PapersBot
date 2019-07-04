@@ -323,6 +323,8 @@ def main():
             print(f"Unknown option: {arg}")
             sys.exit(1)
 
+    doTweet = "--do-not-tweet" not in sys.argv
+
     # We can print top tweets
     if "--top-tweets" in sys.argv:
         bot = PapersBot(doTweet)
@@ -330,7 +332,6 @@ def main():
         sys.exit(0)
 
     # Initialize our bot
-    doTweet = "--do-not-tweet" not in sys.argv
     while True:
         bot = PapersBot(doTweet)
         bot.run()

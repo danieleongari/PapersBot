@@ -6,7 +6,7 @@ I ([@fxcoudert](https://twitter.com/fxcoudert)) wrote PapersBot to operate my [@
 
 PapersBot was inspired by (and borrows some code from) [feedr](https://github.com/housed/feedr).
 
-**Simple modification of the original program to parse only papers with the keywords `COF`, `COFs`, `covalent organic framework` and `covalent–organic framework`, and operate the twitter account [@COF_papers](https://twitter.com/COF_papers).**
+**This is a simple modification of the original program to parse only papers with the keywords `COF`, `COFs`, `covalent organic framework` and `covalent–organic framework`, and operate the twitter account [@COF_papers](https://twitter.com/COF_papers).**
 
 ---
 
@@ -34,9 +34,10 @@ If you do not know how to get your Twitter credentials, follow [steps #1 and #2 
 ## How to run
 
 PapersBot tracks in a file named `posted.dat` (which it will create) the papers that have already been tweeted. The first time you run it, if there is no `posted.dat` from a prior run, PapersBot can thus post **a lot** of papers. If you want to avoid this, especially on the first run or if it hasn't been run for a long time, use the `--do-not-tweet` option.
+The file `posted.dat` also contains a comment if the URL was corrected or blacklisted.
 
-`papersbot.py --do-not-tweet` will list the papers it _would_ tweet, without actually tweeting. But papers will still be recorded as tweeted in the `posted.dat` file.
+## Options
 
-## Other features
-
-- Running `papersbot.py --top-tweets` will give you a list of the 5 top tweets, from the bot's 200 latest tweets. It sorts tweets by adding number of retweets and likes.
+- `papersbot.py --check-hourly` will run the check of the feeds every hour
+- `papersbot.py --do-not-tweet` will list the papers it _would_ tweet, without actually tweeting. But papers will still be recorded as tweeted in the `posted.dat` file.
+- `papersbot.py --top-tweets` will give you a list of the 5 top tweets, from the bot's 200 latest tweets. It sorts tweets by adding number of retweets and likes.
