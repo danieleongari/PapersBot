@@ -1,104 +1,136 @@
 # ACS
-http://feeds.feedburner.com/acs/achre4
-http://feeds.feedburner.com/acs/aaemcq
-http://feeds.feedburner.com/acs/aamick
-http://feeds.feedburner.com/acs/aanmf6
-http://feeds.feedburner.com/acs/accacs
-http://feeds.feedburner.com/acs/acscii
-http://pubs.acs.org/editorschoice/feed/rss
-http://feeds.feedburner.com/acs/aelccp
-http://feeds.feedburner.com/acs/ancac3
-http://feeds.feedburner.com/acs/ascecg
-http://feeds.feedburner.com/acs/chreay
-http://feeds.feedburner.com/acs/cmatex
-http://feeds.feedburner.com/acs/cgdefu
-http://feeds.feedburner.com/acs/enfuem
-http://feeds.feedburner.com/acs/esthag
-http://feeds.feedburner.com/acs/estlcu
-http://feeds.feedburner.com/acs/iecred
-http://feeds.feedburner.com/acs/inocaj
-http://feeds.feedburner.com/acs/jacsat
-http://feeds.feedburner.com/acs/jcisd8
-http://feeds.feedburner.com/acs/jctcce
-http://feeds.feedburner.com/acs/jpcbfk
-http://feeds.feedburner.com/acs/jpccck
-http://feeds.feedburner.com/acs/jpclcd
-http://feeds.feedburner.com/acs/langd5
-http://feeds.feedburner.com/acs/nalefd
+http://feeds.feedburner.com/acs/achre4 # Accounts of Chemical Research
+http://feeds.feedburner.com/acs/aaemcq # ACS Applied Energy Materials
+http://feeds.feedburner.com/acs/aamick # ACS Applied Materials & Interfaces
+http://feeds.feedburner.com/acs/aanmf6 # ACS Applied Nano Materials
+http://feeds.feedburner.com/acs/aapmcd # ACS Applied Polymer Materials
+http://feeds.feedburner.com/acs/accacs # ACS Catalysis
+http://feeds.feedburner.com/acs/acscii # ACS Central Science
+http://feeds.feedburner.com/acs/acsccc # ACS Combinatorial Science
+http://feeds.feedburner.com/acs/aelccp # ACS Energy Letters
+http://feeds.feedburner.com/acs/amlccd # ACS Macro Letters
+http://feeds.feedburner.com/acs/amlcef # ACS Materials Letters
+http://feeds.feedburner.com/acs/ancac3 # ACS Nano
+http://feeds.feedburner.com/acs/ascefj # ACS Sensors
+http://feeds.feedburner.com/acs/ascecg # ACS Sustainable Chemistry & Engineering
+http://feeds.feedburner.com/acs/chreay # Chemical Reviews
+http://feeds.feedburner.com/acs/cmatex # Chemistry of materials
+http://feeds.feedburner.com/acs/cgdefu # Crystal Growth & Design
+http://feeds.feedburner.com/acs/enfuem # Energy & Fuels
+http://feeds.feedburner.com/acs/esthag # Environmental Science & Technology
+http://feeds.feedburner.com/acs/estlcu # Environmental Science & Technology Letters
+http://feeds.feedburner.com/acs/iecred # Industrial & Engineering Chemistry Research
+http://feeds.feedburner.com/acs/inocaj # Inorganic Chemistry
+http://feeds.feedburner.com/acs/jceaax # Journal of Chemical & Engineering Data
+http://feeds.feedburner.com/acs/jceda8 # Journal of Chemical Education
+http://feeds.feedburner.com/acs/jcisd8 # Journal of Chemical Information and Computer Sciences
+http://feeds.feedburner.com/acs/jcisd8 # Journal of Chemical Information and Modeling
+http://feeds.feedburner.com/acs/jctcce # Journal of Chemical Theory and Computation
+http://feeds.feedburner.com/acs/joceah # The Journal of Organic Chemistry
+http://feeds.feedburner.com/acs/jpcafh # The Journal of Physical Chemistry A
+http://feeds.feedburner.com/acs/jpcbfk # The Journal of Physical Chemistry B
+http://feeds.feedburner.com/acs/jpccck # The Journal of Physical Chemistry C
+http://feeds.feedburner.com/acs/jpclcd # The Journal of Physical Chemistry Letters
+http://feeds.feedburner.com/acs/jacsat # Journal of the American Chemical Society
+http://feeds.feedburner.com/acs/langd5 # Langmuir
+http://feeds.feedburner.com/acs/mamobx # Macromolecules
+http://feeds.feedburner.com/acs/nalefd # Nano Letters
+http://feeds.feedburner.com/acs/orlef7 # Organic Letters
+http://feeds.feedburner.com/acs/orgnd7 # Organometallics
 # RSC
-http://feeds.rsc.org/rss/cy
-http://feeds.rsc.org/rss/cc
-http://feeds.rsc.org/rss/sc
-http://feeds.rsc.org/rss/cs
-http://feeds.rsc.org/rss/ce
-http://feeds.rsc.org/rss/dt
-http://feeds.rsc.org/rss/ee
-http://feeds.rsc.org/rss/en
-http://feeds.rsc.org/rss/fd
-http://feeds.rsc.org/rss/gc
-http://feeds.rsc.org/rss/ta
-http://feeds.rsc.org/rss/tb
-http://feeds.rsc.org/rss/tc
-http://feeds.rsc.org/rss/nr
-http://feeds.rsc.org/rss/nj
-http://feeds.rsc.org/rss/cp
-http://feeds.rsc.org/rss/sm
+http://feeds.rsc.org/rss/bm # Biomaterials Science
+http://feeds.rsc.org/rss/cy # Catalysis Science & Technology
+http://feeds.rsc.org/rss/cc # ChemComm
+http://feeds.rsc.org/rss/sc # Chemical Science
+http://feeds.rsc.org/rss/cs # Chemical Society Reviews
+http://feeds.rsc.org/rss/rp # Chemistry Education Research and Practice
+http://feeds.rsc.org/rss/ce # CrystEngComm
+http://feeds.rsc.org/rss/dt # Dalton Transactions
+http://feeds.rsc.org/rss/ee # Energy & Environmental Science
+http://feeds.rsc.org/rss/en # Environmental Science: Nano
+http://feeds.rsc.org/rss/em # Environmental Science: Processes & Impacts
+http://feeds.rsc.org/rss/ew # Environmental Science: Water Research & Technology
+http://feeds.rsc.org/rss/fd # Faraday Discussions
+http://feeds.rsc.org/rss/gc # Green Chemistry
+http://feeds.rsc.org/rss/qi # Inorganic Chemistry Frontiers
+http://feeds.rsc.org/rss/ta # Journal of Materials Chemistry A
+http://feeds.rsc.org/rss/tb # Journal of Materials Chemistry B
+http://feeds.rsc.org/rss/tc # Journal of Materials Chemistry C
+http://feeds.rsc.org/rss/lc # Lab on a Chip
+http://feeds.rsc.org/rss/ma # Materials Advances
+http://feeds.rsc.org/rss/qm # Materials Chemistry Frontiers
+http://feeds.rsc.org/rss/mh # Materials Horizons
+http://feeds.rsc.org/rss/nr # Nanoscale
+http://feeds.rsc.org/rss/na # Nanoscale Advances
+http://feeds.rsc.org/rss/nh # Nanoscale Horizons
+http://feeds.rsc.org/rss/me # Molecular Systems Design & Engineering
+http://feeds.rsc.org/rss/nj # New Journal of Chemistry
+http://feeds.rsc.org/rss/qo # Organic Chemistry Frontiers
+http://feeds.rsc.org/rss/cp # PCCP (Physical Chemistry Chemical Physics)
+http://feeds.rsc.org/rss/py # Polymer Chemistry
+http://feeds.rsc.org/rss/re # Reaction Chemistry & Engineering
+http://feeds.rsc.org/rss/ra # RSC Advances
+http://feeds.rsc.org/rss/sm # Soft Matter
+http://feeds.rsc.org/rss/se # Sustainable Energy & Fuels
 # Nature & Science
-http://feeds.nature.com/nature/rss/current
-http://feeds.nature.com/natcatal/rss/current
-http://feeds.nature.com/nchem/rss/current
-http://feeds.nature.com/nenergy/rss/current
-http://feeds.nature.com/nmat/rss/current
-http://feeds.nature.com/nnano/rss/current
-http://feeds.nature.com/nphys/rss/current
-http://feeds.nature.com/natrevchem/rss/current
-http://feeds.nature.com/natrevmats/rss/current
-http://feeds.nature.com/natrevphys/rss/current
-￼http://feeds.nature.com/ncomms/rss/current		￼
-￼http://feeds.nature.com/commschem/rss/current
-￼http://feeds.nature.com/commsphys/rss/current
-￼http://feeds.nature.com/sdata/rss/current
-￼http://feeds.nature.com/srep/rss/current
-￼http://feeds.nature.com/npjqi/rss/current
-￼http://feeds.nature.com/npjquantmats/rss/current
-￼http://feeds.nature.com/npjcompumats/rss/current
-http://advances.sciencemag.org/rss/current.xml
-http://science.sciencemag.org/rss/express.xml
+http://feeds.nature.com/nature/rss/current         # Nature
+http://feeds.nature.com/natcatal/rss/current       # Nature Catalysis
+http://feeds.nature.com/nchem/rss/current          # Nature Chemistry
+http://feeds.nature.com/ncomms/rss/current         # Nature Communications
+http://feeds.nature.com/nenergy/rss/current        # Nature Energy
+http://feeds.nature.com/nmat/rss/current           # Nature Materials
+http://feeds.nature.com/nnano/rss/current          # Nature Nanotechnology
+http://feeds.nature.com/nphys/rss/current          # Nature Physics
+http://feeds.nature.com/natrevchem/rss/current     # Nature Reviews Chemistry
+http://feeds.nature.com/natrevmats/rss/current     # Nature Reviews Materials
+http://feeds.nature.com/natrevphys/rss/current     # Nature Reviews Physics
+￼http://feeds.nature.com/commschem/rss/current      # Communications Chemistry
+http://feeds.nature.com/commsmat/rss/current       # Communications Materials
+￼http://feeds.nature.com/commsphys/rss/current      # Communications Physics
+￼http://feeds.nature.com/sdata/rss/current          # Scientific Data
+￼http://feeds.nature.com/srep/rss/current           # Scientific Reports
+http://feeds.nature.com/npj2dmaterials/rss/current # npj 2D Materials and Applications
+http://feeds.nature.com/npjcompumats/rss/current   # npj Computational Materials
+￼http://feeds.nature.com/npjqi/rss/current          # npj Quantum Information
+￼http://feeds.nature.com/npjquantmats/rss/current   # npj Quantum Materials
+http://advances.sciencemag.org/rss/current.xml     # Science Advances
+http://science.sciencemag.org/rss/express.xml      # Science
 # Wiley
-https://onlinelibrary.wiley.com/action/showFeed?jc=15475905&type=etoc&feed=rss
-https://onlinelibrary.wiley.com/action/showFeed?jc=15214095&type=etoc&feed=rss
-https://onlinelibrary.wiley.com/action/showFeed?jc=16163028&type=etoc&feed=rss
-https://onlinelibrary.wiley.com/action/showFeed?jc=16136829&type=etoc&feed=rss
-https://onlinelibrary.wiley.com/action/showFeed?jc=16146840&type=etoc&feed=rss
-https://onlinelibrary.wiley.com/action/showFeed?jc=15213773&type=etoc&feed=rss
-https://onlinelibrary.wiley.com/action/showFeed?jc=15213765&type=etoc&feed=rss
-https://onlinelibrary.wiley.com/action/showFeed?jc=1861471x&type=etoc&feed=rss
-https://onlinelibrary.wiley.com/action/showFeed?jc=1096987x&type=etoc&feed=rss
-https://onlinelibrary.wiley.com/action/showFeed?jc=21926506&type=etoc&feed=rss
-https://onlinelibrary.wiley.com/action/showFeed?jc=14397641&type=etoc&feed=rss
-https://onlinelibrary.wiley.com/action/showFeed?jc=10990682c&type=etoc&feed=rss
-https://onlinelibrary.wiley.com/action/showFeed?jc=23656549&type=etoc&feed=rss
-# Elsevier
-http://rss.sciencedirect.com/publication/science/00108545
-http://rss.sciencedirect.com/publication/science/13877003
-http://rss.sciencedirect.com/publication/science/00108545
-http://rss.sciencedirect.com/publication/science/13871811
-https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10450&channel-name=Adsorption
-https://www.cell.com/chem/inpress.rss?code=cell-site
+https://onlinelibrary.wiley.com/action/showFeed?jc=15475905&type=etoc&feed=rss  # AiChE Journal
+https://onlinelibrary.wiley.com/action/showFeed?jc=15214095&type=etoc&feed=rss  # Advanced Materials
+https://onlinelibrary.wiley.com/action/showFeed?jc=16163028&type=etoc&feed=rss  # Advanced Functional Materials
+https://onlinelibrary.wiley.com/action/showFeed?jc=16136829&type=etoc&feed=rss  # Small
+https://onlinelibrary.wiley.com/action/showFeed?jc=16146840&type=etoc&feed=rss  # Advanced Energy Materials
+https://onlinelibrary.wiley.com/action/showFeed?jc=15213773&type=etoc&feed=rss  # Angewandte Chemie International Edition
+https://onlinelibrary.wiley.com/action/showFeed?jc=15213765&type=etoc&feed=rss  # Chemistry - A European Journal
+https://onlinelibrary.wiley.com/action/showFeed?jc=1861471x&type=etoc&feed=rss  # Chemistry - An Asian Journal
+https://onlinelibrary.wiley.com/action/showFeed?jc=1096987x&type=etoc&feed=rss  # Journal of Computational Chemistry
+https://onlinelibrary.wiley.com/action/showFeed?jc=21926506&type=etoc&feed=rss  # ChemPlusChem
+https://onlinelibrary.wiley.com/action/showFeed?jc=14397641&type=etoc&feed=rss  # ChemPhysChem
+https://onlinelibrary.wiley.com/action/showFeed?jc=10990682c&type=etoc&feed=rss # European Journal of Inorganic Chemistry
+https://onlinelibrary.wiley.com/action/showFeed?jc=23656549&type=etoc&feed=rss  # ChemistrySelect
+https://onlinelibrary.wiley.com/action/showFeed?jc=25130390&type=etoc&feed=rss  # Advanced Theory and Simulations
+# Elsevier & Springer
+http://rss.sciencedirect.com/publication/science/00108545 # Coordination Chemistry Reviews
+http://rss.sciencedirect.com/publication/science/13877003 # Inorganic Chemistry Communications
+http://rss.sciencedirect.com/publication/science/13871811 # Microporous and Mesoporous Materials
+https://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10450&channel-name=Adsorption # Adsorption
+https://www.cell.com/chem/inpress.rss                     # Cell
+https://www.cell.com/matter/inpress.rss                   # Matter
 # AIP, APS
-https://aip.scitation.org/action/showFeed?type=etoc&feed=rss&jc=apl
-https://aip.scitation.org/action/showFeed?type=etoc&feed=rss&jc=jap
-https://aip.scitation.org/action/showFeed?type=etoc&feed=rss&jc=jcp
-http://feeds.aps.org/rss/recent/prl.xml
-http://feeds.aps.org/rss/recent/prx.xml
-http://feeds.aps.org/rss/recent/pra.xml
-http://feeds.aps.org/rss/recent/prb.xml
-http://feeds.aps.org/rss/recent/pre.xml
-http://feeds.aps.org/rss/recent/prmaterials.xml
-http://feeds.aps.org/rss/recent/rmp.xml
+https://aip.scitation.org/action/showFeed?type=etoc&feed=rss&jc=apl # Applied Physics Letters
+https://aip.scitation.org/action/showFeed?type=etoc&feed=rss&jc=jap # Journal of Applied Physics
+https://aip.scitation.org/action/showFeed?type=etoc&feed=rss&jc=jcp # The Journal of Chemical Physics
+http://feeds.aps.org/rss/recent/prl.xml                             # Physical Review Letters
+http://feeds.aps.org/rss/recent/prx.xml                             # Physical Review X
+http://feeds.aps.org/rss/recent/pra.xml                             # Physical Review A
+http://feeds.aps.org/rss/recent/prb.xml                             # Physical Review B
+http://feeds.aps.org/rss/recent/pre.xml                             # Physical Review E
+http://feeds.aps.org/rss/recent/prmaterials.xml                     # Physical Review Materials
+http://feeds.aps.org/rss/recent/rmp.xml                             # Reviews of Modern Physics
 # Preprints
-https://chemrxiv.org/rss/portal/chemrxiv
-http://export.arxiv.org/rss/cond-mat.str-el
-http://export.arxiv.org/rss/cond-mat.mtrl-sci
-http://export.arxiv.org/rss/physics.app-ph
-http://export.arxiv.org/rss/physics.chem-ph
+https://chemrxiv.org/rss/portal/chemrxiv      # ChemRxiv
+http://export.arxiv.org/rss/cond-mat.str-el   # arXiv - Condensed Matter - Strongly Correlated Electrons
+http://export.arxiv.org/rss/cond-mat.mtrl-sci # arXiv - Condensed Matter - Materials Science
+http://export.arxiv.org/rss/physics.app-ph    # arXiv - Physics - Applied Physics
+http://export.arxiv.org/rss/physics.chem-ph   # arXiv - Physics - Chemical Physics
