@@ -16,6 +16,7 @@ import re
 import sys
 import tempfile
 import time
+import datetime
 import urllib
 import yaml
 
@@ -175,6 +176,7 @@ def readPosted():
         with open("posted.dat", "r") as f:
             return [ line.split()[0] for line in f.read().splitlines()]
     except:
+        print("WARNING: posted.dat file empty or not read correctly!")
         return []
 
 
@@ -222,10 +224,10 @@ class PapersBot:
 
 
     # Add to tweets posted
-    def addToPosted(self, url):
+    def addToPosted(self, posted_log):
         with open("posted.dat", "a+") as f:
-            print(url, file=f)
-        self.posted.append(url)
+            print(posted_log, file=f)
+        self.posted.append(posted_log)
 
 
     # Send a tweet for a given feed entry
@@ -234,9 +236,9 @@ class PapersBot:
         length = self.maxlength
 
         # Try to solve the problematic URL, but post anyway if not solved
-        if entry.id[:17] == "/doi/abs/10.1002/":
+        if entry.id.startswith("/doi/abs/10.1002/"):
             need_correction = True
-            url = "https://onlinelibrary.wiley.com" + url
+            url = "https://onlinelibrary.wiley.com" + entry.id
             
         else:
             need_correction = False
@@ -265,11 +267,11 @@ class PapersBot:
             self.api.update_status(tweet_body, media_ids=media)
 
         if need_correction:
-            posted_url = "{} (corrected  {})".format(entry.id, url)
+            posted_log = f"{entry.id} (corrected to {url}) {datetime.datetime.now()}"
         else:
-            posted_url = url
+            posted_log = f"{url} {datetime.datetime.now()}"
 
-        self.addToPosted(posted_url)
+        self.addToPosted(posted_log)
         self.n_tweeted += 1
 
         if self.api:
