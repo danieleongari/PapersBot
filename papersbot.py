@@ -231,22 +231,22 @@ class PapersBot:
     # Send a tweet for a given feed entry
     def sendTweet(self, entry):
         title = cleanText(htmlToText(entry.title))
-        url = entry.id
         length = self.maxlength
 
         # Try to solve the problematic URL, but post anyway if not solved
-        if url[:17] == "/doi/abs/10.1002/":
-            url = "https://onlinelibrary.wiley.com" + url
+        if entry.id[:17] == "/doi/abs/10.1002/":
             need_correction = True
+            url = "https://onlinelibrary.wiley.com" + url
+            
         else:
             need_correction = False
+            url = entry.id
 
         tweet_body = title[:length] + " " + url
 
         # Some URLs may match our blacklist
         for blackstring in self.blacklist:
-            reblackstring = re.compile(blackstring)
-            if reblackstring.search(url):
+            if entry.id.startswith(blackstring):
                 print(f"BLACKLISTED: {tweet_body}\n")
                 self.addToPosted(entry.id + " (blacklisted)")
                 return
@@ -265,9 +265,9 @@ class PapersBot:
             self.api.update_status(tweet_body, media_ids=media)
 
         if need_correction:
-            posted_url = "{} (corrected to {})".format(entry.id, url)
+            posted_url = "{} (corrected  {})".format(entry.id, url)
         else:
-            posted_url = entry.id
+            posted_url = url
 
         self.addToPosted(posted_url)
         self.n_tweeted += 1
