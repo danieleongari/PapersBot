@@ -84,15 +84,15 @@ http://feeds.nature.com/nphys/rss/current          # Nature Physics
 http://feeds.nature.com/natrevchem/rss/current     # Nature Reviews Chemistry
 http://feeds.nature.com/natrevmats/rss/current     # Nature Reviews Materials
 http://feeds.nature.com/natrevphys/rss/current     # Nature Reviews Physics
-￼http://feeds.nature.com/commschem/rss/current      # Communications Chemistry
+http://feeds.nature.com/commschem/rss/current      # Communications Chemistry
 http://feeds.nature.com/commsmat/rss/current       # Communications Materials
-￼http://feeds.nature.com/commsphys/rss/current      # Communications Physics
-￼http://feeds.nature.com/sdata/rss/current          # Scientific Data
-￼http://feeds.nature.com/srep/rss/current           # Scientific Reports
+http://feeds.nature.com/commsphys/rss/current      # Communications Physics
+http://feeds.nature.com/sdata/rss/current          # Scientific Data
+http://feeds.nature.com/srep/rss/current           # Scientific Reports
 http://feeds.nature.com/npj2dmaterials/rss/current # npj 2D Materials and Applications
 http://feeds.nature.com/npjcompumats/rss/current   # npj Computational Materials
-￼http://feeds.nature.com/npjqi/rss/current          # npj Quantum Information
-￼http://feeds.nature.com/npjquantmats/rss/current   # npj Quantum Materials
+http://feeds.nature.com/npjqi/rss/current          # npj Quantum Information
+http://feeds.nature.com/npjquantmats/rss/current   # npj Quantum Materials
 http://advances.sciencemag.org/rss/current.xml     # Science Advances
 http://science.sciencemag.org/rss/express.xml      # Science
 # Wiley
